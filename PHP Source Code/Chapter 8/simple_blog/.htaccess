@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /simple_blog/
+
+RewriteRule \.(gif|jpg|png|css|ico|swf|js|inc\.php)$ - [L]
+RewriteRule ^admin/(\w+)/?$ admin.php?page=$1 [NC,L]
+RewriteRule ^admin/(\w+)/([\w-]+) admin.php?page=$1&url=$2 [NC,L]
+RewriteRule ^(\w+)/?$ index.php?page=$1
+RewriteRule ^(\w+)/([\w-]+) index.php?page=$1&url=$2

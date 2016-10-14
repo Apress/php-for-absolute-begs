@@ -1,0 +1,29 @@
+h1 {
+    width:380px;
+    margin:0 auto 20px;
+    padding:0;
+    font-family:helvetica, sans-serif;
+}
+#entries, fieldset {
+    width:350px;
+    margin:0 auto;
+    padding:10px;
+    font-family:helvetica, sans-serif;
+}
+input, textarea {
+    font-size:95%;
+    font-family:helvetica, sans-serif;
+    display:block;
+    width:340px;
+    margin:0 auto 10px;
+    padding:4px;
+    border:1px solid #333;
+}
+input[type=submit] {
+    display:inline;
+    width:auto;
+}
+.backlink {
+    border:0;
+    text-align:right;
+}
